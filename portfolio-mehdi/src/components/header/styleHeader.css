@@ -1,0 +1,75 @@
+.header {
+    height: 100vh;
+    background-color: #040B14;
+    width: 300px;
+    position: fixed;
+    transition: 0.5s ease;
+    transform: translateX(0);
+}/*a regler avec le sticky*/
+
+
+.profile{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}/*le profile qui a l'image et une liste */
+
+.nav-menu{
+    height: 450px;  
+    padding-top: 30px;
+}/*le lenu avec une liste des differrentes  parties*/
+
+.nav-menu> *{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.text-h1>a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+
+.image-pp{
+    max-height: 120px;
+    max-width: 80px;
+}
+
+.bx{
+
+    margin-right: 10px;
+}
+
+
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+    color: #149ddd;
+  }
+
+  li{
+    margin-left: 10px;
+  }
+  
