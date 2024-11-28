@@ -7,7 +7,13 @@ function HomeSection()  {
 
         <>
         <section id="home">
+            
             <div className="home-container">
+            <div>
+                <div className='wave'></div>
+                <div className='wave'></div>
+                <div className='wave'></div>
+            </div>
                 <h1 className="home-description">Chebbah Mehdi</h1>
                 <p className="typed">I'm 
                     <ReactTyped 

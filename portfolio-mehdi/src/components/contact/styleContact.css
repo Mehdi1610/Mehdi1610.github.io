@@ -1,4 +1,7 @@
 .contact>.container{
     min-height: 100vh;
-    background-color:bisque;
+    background-color: #D9F2E6;
+}
+h2{
+    margin: 0;
 }

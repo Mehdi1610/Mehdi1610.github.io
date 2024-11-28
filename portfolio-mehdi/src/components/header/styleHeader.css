@@ -1,6 +1,6 @@
 .header {
     height: 100vh;
-    background-color: #040B14;
+    background-color: #0A0A1E;
     width: 300px;
     position: fixed;
     transition: 0.5s ease;
@@ -71,4 +71,3 @@ a{
   li{
     margin-left: 10px;
   }
-  

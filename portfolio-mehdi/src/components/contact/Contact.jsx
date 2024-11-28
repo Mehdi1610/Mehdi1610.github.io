@@ -6,7 +6,20 @@ function Contact(){
             <>
             <section id="contact" className="contact">
                 <div className="container">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div className="section-title-container">
+                        <h2 className="section-title">Contact</h2>
+                        <p className="section-subtitle">Get in touch with me & Connect with me</p>
+                    </div>
+                    <div className="section-content">
+                        <p>LinkedIn</p>
+                        <p>mail</p>
+                        <p>Location</p>
+                        <div className="downloader">
+                            <p>You can Download my Curriculum vitae for More details :</p>
+                            <p>CV</p> 
+                        </div>
+                    
+                    </div>
                 </div>
             </section>
             
@@ -14,4 +27,4 @@ function Contact(){
         );
     }
 
-export default Contact;
+export default Contact
